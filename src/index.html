@@ -8,17 +8,72 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="./img/bolo.png" alt="bolo de aniversário">
             <p class="hero__text">
-                Venha também para esta inesquecível festa de aniversário em <span></span>
+                Venha também para esta inesquecível festa de aniversário em <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Baboseiras clubfest - Americana - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 50,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        19/06/2025 ás 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
         </div>
     </header>
+
+    <section class="event event--piscina">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+                <h2 class="event__detail__title">piscina</h2>
+                <p class="event__detail__descripition">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam cupiditate doloribus nemo dolore sapiente alias ratione minus natus. Amet reiciendis modi impedit nesciunt, repudiandae excepturi quisquam aliquam doloribus inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quod blanditiis. Officiis esse magnam consequatur, ipsum nam impedit, est veniam molestias quo illo molestiae cupiditate nisi ullam qui, excepturi libero!
+                </p>
+            </div>
+            <img class="event__image" src="./img/piscina.jpg" alt="piscina">
+        </div>
+    </section>
+    <section class="event event--karaoke event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__detail">
+                <h2 class="event__detail__title">karaokê</h2>
+                <p class="event__detail__descripition">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam cupiditate doloribus nemo dolore sapiente alias ratione minus natus. Amet reiciendis modi impedit nesciunt, repudiandae excepturi quisquam aliquam doloribus inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quod blanditiis. Officiis esse magnam consequatur, ipsum nam impedit, est veniam molestias quo illo molestiae cupiditate nisi ullam qui, excepturi libero!
+                </p>
+            </div>
+            <img class="event__image" src="./img/karaokê.jpg" alt="piscina">
+        </div>
+    </section>
+    <section class="event event--brinde">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Brindes</h2>
+                <p class="event__detail__descripition">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam cupiditate doloribus nemo dolore sapiente alias ratione minus natus. Amet reiciendis modi impedit nesciunt, repudiandae excepturi quisquam aliquam doloribus inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quod blanditiis. Officiis esse magnam consequatur, ipsum nam impedit, est veniam molestias quo illo molestiae cupiditate nisi ullam qui, excepturi libero!
+                </p>
+            </div>
+            <img class="event__image" src="./img/brinde.jpg" alt="piscina">
+        </div>
+    </section>
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
